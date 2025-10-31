@@ -1,7 +1,7 @@
 import './style.css';
 
 
-export function Content() {
+export function Content(props) {
     return (
         <div class="content">
             <h1>Welcome to the Content Section</h1>

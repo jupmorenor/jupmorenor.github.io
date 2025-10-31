@@ -31,15 +31,24 @@ img:hover {
 	filter: drop-shadow(0 0 2em #024a);
 }
 
+.main {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: flex-start;
+	gap: 2rem;
+	text-align: left;
+}
+
 @media (max-width: 639px) {
 	#app {
-		margin: 2rem;
+		margin: 0;
 	}
 }
 
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
 	:root {
 		color: #ccc;
 		background-color: #1a1a1a;
 	}
-}
+} */

@@ -1,12 +1,14 @@
 import './style.css';
 
 
-export function Header() {
+export function Header(props) {
     return (
         <header>
-            <img src="https://avatars.githubusercontent.com/u/11802554?s=200&u=badff61fb1f854d299a276b12398cdd5cbca6793&v=2" alt="Profile pic" />
-            <h1>Juan Pablo Moreno Rico</h1>
-            <h2>Desarrollador Fullstack</h2>
+            <img src={props.data.photo} alt="Profile pic" />
+            <div class={"title"}>
+                <h1>{props.data.title}</h1>
+                <h2>{props.data.subtitle}</h2>
+            </div>
         </header>
     );
 }

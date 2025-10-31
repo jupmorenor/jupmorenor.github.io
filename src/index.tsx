@@ -4,15 +4,17 @@ import { Header } from './components/header/index.tsx';
 import { Sidebar } from './components/sidebar/index.tsx';
 import { Content } from './components/content/index.tsx';
 
+import data from './assets/data.json';
+
 import './style.css';
 
 export function App() {
 	return (
 		<>
-			<Header />
-			<main>
-				<Sidebar />
-				<Content />
+			<Header data={data.header} />
+			<main class={"main"}>
+				<Sidebar data={data.sidebar} />
+				<Content data={data.content}/>
 			</main>
 		</>
 	);
