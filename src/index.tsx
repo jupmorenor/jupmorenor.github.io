@@ -4,7 +4,7 @@ import { Header } from './components/header/index.tsx';
 import { Sidebar } from './components/sidebar/index.tsx';
 import { Content } from './components/content/index.tsx';
 
-import data from './assets/data.json';
+import { data } from './assets/data.tsx';
 
 import './style.css';
 

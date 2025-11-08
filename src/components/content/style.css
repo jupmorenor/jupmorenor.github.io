@@ -3,3 +3,16 @@
     max-width: 65%;
     padding: 20px;
 }
+
+.content-section {
+    margin-bottom: 30px;
+}
+
+.section-item {
+    margin-bottom: 15px;
+}
+
+.section-list {
+    list-style-type: disc;
+    padding-left: 20px;
+}
