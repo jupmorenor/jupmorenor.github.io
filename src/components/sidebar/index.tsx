@@ -14,7 +14,7 @@ export function Sidebar(props) {
                                 return (
                                     <p class="item">
                                         {item.icon ? <item.icon /> : null}
-                                        {item.link ? <a href={item.link}>{item.text}</a> : item.text}
+                                        {item.link ? <a target={"_blank"} rel={"noopener noreferrer"} href={item.link}>{item.text}</a> : item.text}
                                     </p>
                                 );
                             })}

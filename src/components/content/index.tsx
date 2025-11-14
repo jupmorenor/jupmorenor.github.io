@@ -22,7 +22,7 @@ export function Content(props) {
                                                 <ul class="section-list">
                                                     {item.functions ? (item.functions as Array<string>).map((func) => {
                                                         return (
-                                                            <li>{func}</li>
+                                                            <li><p class="section-text">{func}</p></li>
                                                         );
                                                     }): null}
                                                 </ul>

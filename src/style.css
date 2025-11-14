@@ -23,13 +23,23 @@ body {
 	text-align: center;
 }
 
-img {
-	margin-bottom: 1.5rem;
-}
-
 img:hover {
 	filter: drop-shadow(0 0 2em #024a);
 }
+
+p {
+	text-align: justify;
+	hyphens: auto;
+}
+
+a {
+	color: #333;
+	text-decoration: none;
+}
+ a:hover {
+	text-decoration: underline;
+	color: #24a;
+ }
 
 .main {
 	display: flex;
