@@ -1,5 +1,5 @@
-import { 
-    IconPhoneFilled,
+import {
+    IconBrandWhatsappFilled,
     IconMapPinFilled,
     IconBrandLinkedinFilled,
     IconBrandGithubFilled,
@@ -17,8 +17,9 @@ export const data = {
             title: "Contacto",
             items: [
                 {
-                    icon: IconPhoneFilled,
+                    icon: IconBrandWhatsappFilled,
                     text: "+57 312 530 8411",
+                    link: "https://wa.me/573125308411"
                 },
                 {
                     icon: IconMailFilled,
