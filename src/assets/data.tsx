@@ -45,7 +45,7 @@ export const data = {
             title: "Habilidades",
             items: [
                 {
-                    text: "JavaScript, TypeScript, Go, Python, Java, Angular, RxJs, React, Redux, Express, Beego, HTML5, CSS3, SASS, Material UI, Bootstrap, PostgreSQL, SQLite, MongoDB, ETL, Git, Github, Github Actions, GitFlow."
+                    text: "JavaScript, TypeScript, Go, Python, Java, Angular, Microfrontend, RxJs, React, Redux, Express, NestJS, Beego, HTML5, CSS3, SASS, Material UI, Bootstrap, PostgreSQL, SQLite, MongoDB, ETL, Git, Github, Github Actions, GitFlow."
                 },
                 {
                     text: "Analisis de requerimientos, diseño de bases datos, diseño UML."
@@ -86,6 +86,18 @@ export const data = {
         {
             title: "Experiencia laboral",
             items: [
+                {
+                    title: "Desarrollador Full Stack",
+                    subtitle: "Oficina Asesora de Sistemas de la Universidad Distrital | Dic 2025 - Jun 2026",
+                    description: "Desarrollo del sistema de administración de planes de auditoría y planes de mejoramiento para la Oficina de Control Interno de la Universidad Distrital de acuerdo con las políticas institucionales.",
+                    functions: [
+                        "Desarrollé los módulos de planeación y programación del sistema, cubriendo la creación individual y masiva de auditorías, la asignación de auditores y el flujo completo de aprobación por múltiples roles institucionales.",
+                        "Implementé el soporte a múltiples dependencias por auditoría, incluyendo la migración de datos existentes y la validación completa del flujo en ambiente de pruebas.",
+                        "Construí el flujo de edición extraordinaria del plan aprobado, con registro de actas de modificación, generación diferenciada de documentos e historial de ediciones accesible por roles autorizados.",
+                        "Ejecuté la actualización de seguridad del frontend a Angular v20, resolví más de 500 observaciones de calidad e incorporé análisis de código automático en los repositorios del proyecto, reduciendo las vulnerabilidades de 57 a 6.",
+                        "Apoyé el paso a producción mediante scripts de migración de datos, sincronización de ambientes, implementación de configuración por ambiente y resolución de incidencias críticas que bloqueaban flujos principales del sistema.",
+                    ]
+                },
                 {
                     title: "Desarrollador Full Stack",
                     subtitle: "Oficina Asesora de Sistemas de la Universidad Distrital | Sep 2022 - Feb 2023",
